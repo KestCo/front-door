@@ -206,6 +206,17 @@ main {
   border-color: rgba(248, 241, 229, 0.54);
 }
 
+.button-story {
+  color: #ffffff;
+  background: var(--green);
+  border-color: #1a9b68;
+}
+
+.button-story:hover,
+.button-story:focus-visible {
+  background: #1b9d69;
+}
+
 .game-launcher {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
