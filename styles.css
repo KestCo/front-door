@@ -195,26 +195,26 @@ main {
 }
 
 .button-secondary {
-  color: #f8f1e5;
-  background: transparent;
-  border-color: rgba(248, 241, 229, 0.32);
+  color: #07111d;
+  background: var(--gold);
+  border-color: #efcf78;
 }
 
 .button-secondary:hover,
 .button-secondary:focus-visible {
-  background: rgba(248, 241, 229, 0.1);
-  border-color: rgba(248, 241, 229, 0.54);
+  background: #edcf7f;
+  border-color: #efcf78;
 }
 
 .button-story {
-  color: #ffffff;
-  background: var(--green);
-  border-color: #1a9b68;
+  color: #07111d;
+  background: var(--gold);
+  border-color: #efcf78;
 }
 
 .button-story:hover,
 .button-story:focus-visible {
-  background: #1b9d69;
+  background: #edcf7f;
 }
 
 .game-launcher {
@@ -275,41 +275,45 @@ main {
 }
 
 .game-card .button-primary {
-  color: #ffffff;
-  background: var(--ink);
-  border-color: var(--ink);
+  color: #07111d;
+  background: var(--gold);
+  border-color: #efcf78;
 }
 
 .word-card .button-primary {
-  background: var(--steel-dark);
-  border-color: var(--steel-dark);
+  color: #07111d;
+  background: var(--gold);
+  border-color: #efcf78;
 }
 
 .tier-card .button-primary {
-  background: #d29000;
-  border-color: #d29000;
+  color: #07111d;
+  background: var(--gold);
+  border-color: #efcf78;
 }
 
 .story-card .button-primary {
-  background: var(--green);
-  border-color: var(--green);
+  color: #07111d;
+  background: var(--gold);
+  border-color: #efcf78;
 }
 
 .game-card .button-primary:hover,
 .game-card .button-primary:focus-visible {
-  filter: brightness(1.08);
+  background: #edcf7f;
+  filter: none;
 }
 
 .game-card .button-secondary {
-  color: var(--ink);
-  border-color: var(--line);
-  background: #f7f9fc;
+  color: #07111d;
+  border-color: #efcf78;
+  background: var(--gold);
 }
 
 .game-card .button-secondary:hover,
 .game-card .button-secondary:focus-visible {
-  background: #eef3f8;
-  border-color: #b9c6d4;
+  background: #edcf7f;
+  border-color: #efcf78;
 }
 
 .studio-band {
