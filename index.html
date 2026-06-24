@@ -1,0 +1,110 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Game Suite</title>
+    <meta
+      name="description"
+      content="The Game Suite brings together Word Architect, Top Tier, and Your Story. Created by journalists for curious minds."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="suite-mark" href="#top" aria-label="The Game Suite home">The Game Suite</a>
+      <nav class="site-nav" aria-label="Game links">
+        <a href="https://word-architect.vercel.app/">Word Architect</a>
+        <a href="https://top-tier-game.vercel.app/">Top Tier</a>
+        <a href="https://your-story-zeta.vercel.app/">Your Story</a>
+        <a class="studio-link" href="https://game-studio-kappa.vercel.app/">Studio</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="suite-title">
+        <div class="hero-art">
+          <img src="assets/the-game-suite-logo.png" alt="The Game Suite. Created by journalists for curious minds." />
+        </div>
+        <div class="hero-copy">
+          <p class="kicker">Created by journalists for curious minds.</p>
+          <h1 id="suite-title">Daily games with a little more thought inside.</h1>
+          <p>
+            Choose a word puzzle, a timed brain teaser, or a story-building world. Each game has its own rhythm, but they all reward close attention.
+          </p>
+          <div class="hero-actions" aria-label="Featured actions">
+            <a class="button button-primary" href="https://top-tier-game.vercel.app/">Play Top Tier</a>
+            <a class="button button-secondary" href="https://word-architect.vercel.app/">Play Word Architect</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="game-launcher" aria-label="Game launcher">
+        <article class="game-card word-card">
+          <div class="game-logo-wrap">
+            <img src="assets/word-architect-logo.png" alt="Word Architect" />
+          </div>
+          <div class="game-copy">
+            <p class="game-type">Word logic</p>
+            <h2>Word Architect</h2>
+            <p>Build meaning, one word at a time.</p>
+          </div>
+          <div class="game-actions">
+            <a class="button button-primary" href="https://word-architect.vercel.app/">Play</a>
+            <a class="button button-secondary" href="https://word-architect.vercel.app/editor">Editor</a>
+          </div>
+        </article>
+
+        <article class="game-card tier-card">
+          <div class="game-logo-wrap">
+            <img src="assets/top-tier-logo.png" alt="Top Tier" />
+          </div>
+          <div class="game-copy">
+            <p class="game-type">Timed reasoning</p>
+            <h2>Top Tier</h2>
+            <p>12 questions. 4 tiers. 30 seconds each.</p>
+          </div>
+          <div class="game-actions">
+            <a class="button button-primary" href="https://top-tier-game.vercel.app/">Play</a>
+            <a class="button button-secondary" href="https://top-tier-game.vercel.app/?editor=1">Editor</a>
+          </div>
+        </article>
+
+        <article class="game-card story-card">
+          <div class="game-logo-wrap">
+            <img src="assets/your-story-logo.png" alt="Your Story" />
+          </div>
+          <div class="game-copy">
+            <p class="game-type">Creative world-building</p>
+            <h2>Your Story</h2>
+            <p>Your words. Your world.</p>
+          </div>
+          <div class="game-actions">
+            <a class="button button-primary" href="https://your-story-zeta.vercel.app/">Play</a>
+            <a class="button button-secondary" href="https://your-story-zeta.vercel.app/?writer=1">Writer</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="studio-band" aria-labelledby="studio-title">
+        <div>
+          <p class="kicker">For the team</p>
+          <h2 id="studio-title">Editors, writers, and review live here.</h2>
+          <p>Open the shared studio to check drafts, review game status, and move finished work toward publication.</p>
+        </div>
+        <a class="button button-studio" href="https://game-studio-kappa.vercel.app/">Open Game Studio</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Created by Brad J Kester</span>
+      <span>The Game Suite</span>
+    </footer>
+  </body>
+</html>
